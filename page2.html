@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="page3.html">Login</a>
+    </nav>
+   <header>
+    <h1>Signup</h1>
+    <h2>Create a New Account</h2>
+   </header> 
+   <main>
+    <section>
+        <form  class="form" action="#">
+            <div class="column">
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" placeholder="First">
+
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" placeholder="Last">
+
+            <label for="user">User Name</label>
+            <input type="text" name="user" id="user" placeholder="User Name">
+            
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email" required aria-required="true">
+            </div>
+            <div class="column">
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" placeholder="Password" required aria-required="true">
+
+            <label for="confirmation">Confirm Password</label>
+            <input type="text" name="confirmation" id="confirmation" placeholder="Confirm Password" required aria-required="true">
+
+            <textarea name="user-input" id="user-input" cols="30" rows="10">Tell us a little about yourself?</textarea>
+
+            <button>Submit The Form</button>
+            </div>
+        </form>
+    </section>
+   </main>
+   <footer></footer>
+</body>
+</html>

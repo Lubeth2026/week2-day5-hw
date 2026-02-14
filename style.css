@@ -27,3 +27,43 @@
     background-color: black;
     color: antiquewhite;
 }
+.btn:hover {
+    text-decoration: line-through;
+    font-size: 20px;
+    border-style: double;
+    border-width: 5px;
+}
+.main:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    border-width: 5px;
+    border-color: antiquewhite;  
+}
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 20px;
+}
+.nav:hover {
+    font-size: 24px;
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: dashed;
+    text-decoration: line-through;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+label {
+    display: flex;
+    flex-wrap: column;
+    width: 300px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
