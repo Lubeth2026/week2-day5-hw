@@ -52,6 +52,32 @@
     border-style: dashed;
     text-decoration: line-through;
 }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.first-letter {
+    font-size: 24px;
+}
+.index-section1 {
+    display: flex;
+    display: block;
+    border: 18px solid rgb(39, 130, 210) ;
+    padding: 10px;
+    margin: 30px;
+}
+.index-section2 {
+    display: flex;
+    display: block;
+    border: 18px solid rgb(39, 130, 210) ;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+
+
+
 .form {
     display: flex;
     flex-wrap: wrap;
@@ -65,5 +91,15 @@ label {
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+}
+.page2-color {
+    background-color: rgb(39, 130, 210);
+}
+
+
+
+
+.page3-color {
+    background-color: aqua;
 }
